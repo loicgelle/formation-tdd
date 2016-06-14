@@ -2,7 +2,7 @@
 class StringCalculator {
 
     static public function add($num) {
-        if(substr($num, 0, 2) == "*/") {
+        if(substr($num, 0, 2) == "//") {
             $split = explode("\n", $num, 2);
             $delim = [];
             preg_match_all("/\[([^\]]*)\]/", $split[0], $delim);
