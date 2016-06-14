@@ -1,6 +1,6 @@
 <?php
 
-include('../StringCalculator.php');
+include('src/StringCalculator.php');
 
 class StringCalculatorTest extends PHPUnit_Framework_TestCase {
 
