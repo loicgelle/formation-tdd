@@ -1,5 +1,7 @@
 <?php
 
+include('../StringCalculator.php');
+
 class StringCalculatorTest extends PHPUnit_Framework_TestCase {
 
     public function testAddZero() {
