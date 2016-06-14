@@ -1,7 +1,6 @@
 <?php
-use PHPUnit\Framework\TestCase;
 
-class StringCalculatorTest extends TestCase {
+class StringCalculatorTest extends PHPUnit_Framework_TestCase {
 
     public function testAddZero() {
         $testStr = "";
